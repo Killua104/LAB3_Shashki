@@ -50,7 +50,7 @@ private:
 };
 
 // Ход
-struct Move
+class Move
 {
 public:
 	Move(int fx = 0, int fy = 0, int tx = 0, int ty = 0) : fromX(fx), fromY(fy), toX(tx), toY(ty) {}
